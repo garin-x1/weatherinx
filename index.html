@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Weatherin</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2 style="text-align: center;" class="permission">
+                Require<br> Geolocation Permission
+            </h2>
+            <div class="weather-container">
+                <img src="" alt="" class="weather-icon">
+                <div class="temp-degree"></div>
+                <div class="weather-condition"></div>
+            </div>
+            <div class="location-container">
+                <div class="location-city"></div>
+                <div class="location-reg-count"></div>
+                <div class="last-update"></div>
+            </div>
+        </header>
+        <div class="stat-container">
+            <div class="temperature-container">
+                <span class="material-symbols-outlined icon thermostat">
+                    device_thermostat
+                </span>
+                <div class="card-title">Feels like</div>
+                <div class="temp-value value"></div>
+            </div>
+            <div class="humidity-container">
+                <span class="material-symbols-outlined icon water">
+                    humidity_percentage
+                </span>
+                <div class="card-title">Humidity</div>
+                <div class="humid-value value"></div>
+            </div>
+            <div class="cloud-container">
+                <span class="material-symbols-outlined icon cloud">
+                    cloud
+                </span>
+                <div class="card-title">Cloud</div>
+                <div class="cloud-value value"></div>
+            </div>
+            <div class="wind-container">
+                <span class="material-symbols-outlined icon wind">
+                    air
+                </span>
+                <div class="card-title">Wind</div>
+                <div class="wind-value value"></div>
+            </div>
+            <div class="pressure-container">
+                <span class="material-symbols-outlined icon speedometer">
+                    swap_driving_apps_wheel
+                </span>
+                <div class="card-title">Pressure</div>
+                <div class="press-value value"></div>
+            </div>
+            <div class="uv-container">
+                <span class="material-symbols-outlined icon sun">
+                    brightness_high
+                </span>
+                <div class="card-title">UV index</div>
+                <div class="uv-value value"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
