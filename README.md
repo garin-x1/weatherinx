@@ -1,6 +1,6 @@
-# Weatherin
+# Weatherinx
 
-Weatherin is a weather web app created by Garin as a personal project.
+Weatherinx is a weather web app created by Garin as a personal project.
 
 ## Tecnologies
 

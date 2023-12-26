@@ -9,7 +9,8 @@ window.addEventListener("load", () => {
             const baseLink = `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${lat},${lon}&aqi=yes`;
             const data = await fetch(baseLink).then(Response => Response.json());
 
-            document.querySelector("header").removeChild(document.querySelector(".permission"));
+            document.querySelector(".container").removeChild(document.querySelector(".permission"));
+            document.querySelector("header").style.visibility = "visible";
             document.querySelector(".stat-container").style.visibility = "visible";
 
             if(!data.current.is_day){

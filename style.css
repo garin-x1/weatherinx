@@ -46,6 +46,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    visibility: collapse;
 }
 
 .weather-icon{
@@ -90,7 +91,7 @@ header{
     gap: 25px 25px;
     border-radius: 25px;
     padding: 25px;
-    visibility: hidden;
+    visibility: collapse;
 }
 
 .icon{
